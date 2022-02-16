@@ -1,0 +1,110 @@
+<html> 
+	<head>
+	<meta charset="utf-8">
+		 <title>BOUQEMILAU WEBSITE</title>
+		 <link rel="stylesheet" href="transaksi.css">
+		 <link rel="shortcut icon" href="https://drive.google.com/uc?export=view&id=1e9cQ1kWdxFZ-duM66asdfIAxcOwnvYWJ">
+	</head>
+	<body>
+		<div class="kop">
+			<marquee direction="right">BOUQEMILAU-For Your Special Day!</marquee>
+		</div>
+		<div class="header">
+			<div class="header-logo1"><img height="70" src="https://drive.google.com/uc?export=view&id=1e9cQ1kWdxFZ-duM66asdfIAxcOwnvYWJ" width : "70"></div>
+			<div class="header-list">
+				<ul>
+					<li><a href="bouqemilau website.html">Beranda</a></li>
+					<li><a href="produk bouqemilau.html">Produk</a></li>
+					<li><a href="kontak.html">Kontak</a></li>
+					<li><a href="transaksi.html">Transaksi</a></li>
+				</ul>
+			</div>
+		</div>
+<center>
+<table border="2">
+	<tr>
+		<th bgcolor="green" colspan="2"  >PERHITUNGAN BELANJA</th>
+	</tr>
+	<tr>
+		<td align="center" colspan="2">OK SHOP</th>
+	</tr>
+	<tr>
+		<td>NAMA BARANG</td>
+		<td><input type="text" id="ipt_namaBarang"></td>
+	</tr>
+	<tr>
+		<td>HARGA BARANG</td>
+		<td><input type="text" id="ipt_hargaBarang"></td>
+	</tr>
+	<tr>
+		<td>JUMLAH BARANG</td>
+		<td><input type="text" id="ipt_jumlahBarang"></td>
+	</tr>
+	<tr>
+		<td>DISKON</td>
+		<td><input type="text" id="ipt_diskon"></td>
+	</tr>
+	<tr>
+		<td colspan="2"> <button onclick="hitung()">Hitung</button></td>
+	</tr>
+	<tr>
+		<td align="center" colspan="2"> MARI BELANJA</td>
+	<tr>
+		<td align="center" colspan="2"> OK SHOP</td>
+	</tr>
+	<tr>
+		<td>NAMA BARANG</td>
+		<td><input type="text" id="opt_namaBarang"></td>
+	</tr>
+	<tr>
+		<td>HARGA BARANG</td>
+		<td><input type="text" id="opt_hargaBarang"></td>
+	</tr>
+	<tr>
+		<td>JUMLAH BARANG</td>
+		<td><input type="text" id="opt_jumlahBarang"></td>
+	</tr>
+	<tr>
+		<td>DISKON</td>
+		<td><input type="text" id="opt_diskon"></td>
+	</tr>
+	<tr>
+		<td>TOTAL HARGA</td>
+		<td><input type="text" id="opt_totalHarga"></td>
+	</tr>
+
+	<td colspan="2"><button onclick="reset()">Reset</button></td>
+	</tr>
+</table>
+
+	<script>
+	var namaBarang
+	var hargaBarang
+	var jumlahBarang
+	var diskon
+	function hitung () {
+	namaBarang = (document.getElementById("ipt_namaBarang").value);
+	hargaBarang = parseFloat(document.getElementById("ipt_hargaBarang").value);
+	jumlahBarang = parseFloat(document.getElementById("ipt_jumlahBarang").value);
+	diskon = parseFloat(document.getElementById("ipt_diskon").value);
+	totalHarga = (hargaBarang * jumlahBarang)-(hargaBarang * jumlahBarang * diskon/100);
+	document.getElementById('opt_namaBarang').value = namaBarang;
+	document.getElementById('opt_hargaBarang').value = hargaBarang;
+	document.getElementById('opt_jumlahBarang').value = jumlahBarang;
+	document.getElementById('opt_diskon').value = diskon+"%";
+	document.getElementById('opt_totalHarga').value = totalHarga;
+	}
+	function reset () {
+	document.getElementById('opt_namaBarang').value="";
+	document.getElementById('opt_hargaBarang').value="";
+	document.getElementById('opt_jumlahBarang').value="";
+	document.getElementById('opt_diskon').value="";
+	}
+	</script>
+	<body>
+		<div class="footer">
+		<p>BOUQEMILAU</p>
+		<p>Pejogol 	RT 02 RW 01</p>
+		<p>WA 08895119118</p>
+		</div>
+	</body>

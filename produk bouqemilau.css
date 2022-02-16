@@ -1,0 +1,178 @@
+.body{
+	color : white;
+	font-family: "avenir next";
+}
+.li {
+	list-style: none;
+	text-align: center;
+	border-radius: 5px ;
+}
+.kop{
+	background-color:  #8BAE96;
+	padding: 10px;
+	color: black;
+}
+
+.header {
+	background-color : #8BAE96;
+	color : #F9E79F;
+	height : 90px ;
+	font-family: "arial black";
+}
+
+.header-logo1 {
+	float: left;
+	padding: 8px 30px;
+}
+
+.header-list a {text-decoration: none;}
+
+
+.header-list a:hover {
+	  color: green;
+}
+.header img {
+	border-color: #8BAE96;
+	border-radius : 15px ;
+	border-style : solid;
+}
+
+.header li {
+	background-color : white;
+	float: left;
+	margin :23px ;
+	border-radius : 15px 15px 15px 15px ;
+	display : block ;
+	position : relative ;
+	padding: 10px 10px;
+	padding-left : 10px ;
+	color : black;
+	border : 2px solid #F9E79F;
+	font-family : Times New Roman;
+}
+
+.main {
+	padding: 100px 80px;
+	background-color : #F0FFFF ;
+}
+
+.section-title {
+	border-bottom: 2px solid #dee7ec;
+	font-size: 28px;
+	padding-bottom: 15px;
+	margin-bottom: 15px ;
+}
+.copy-container {
+	padding-bottom : 5px ;
+	float: center;
+}
+
+.copy-container img{
+	width: 1000px;
+	height: 300px;
+	float: center;
+	margin-left: 80px;
+}
+		
+.copy-container span{
+	color: yellow;
+}
+
+
+.contents {
+	height:350 px ;
+	background-color : white;
+	padding-bottom :120px ;
+}
+
+.contents-item {
+	float: left ;
+	margin-right : 60px ;
+
+}
+
+.contents-item img {
+	width: 70px;
+	height: 70px;
+	border : 1px solid black ;
+}
+.contents-item p {
+	font-size: 12px;
+	text-align: center;
+}
+.section-title {
+	border-bottom: 2px solid #dee7ec;
+	font-size: 28px;
+	padding-bottom: 15px;
+	margin-bottom: 50px;
+}
+.contact-item {
+	float: left ;
+	margin-right : 50px ;
+}
+
+
+.hot-sale {
+	height:350 px ;
+	background-color : white;
+	padding-bottom :550px ;
+	color : red ;
+}
+.hot-sale p {
+color : black ;
+
+}
+.contact-item img  {
+ border : 1px solid black ;
+ width: 200px;
+height: 200px;
+}
+
+.hot-sale p{
+  font-size: 14px;
+	  text-align:center;
+	  margin-top: 30px;
+	  border:2px solid black;
+	  border-radius:10px;
+	  background-color: red;
+	  color:white
+}
+
+.hot-sale p:hover {
+	  background-color: blue; 
+	  color: yellow;
+}
+
+
+.info {
+	color : black ;
+	background-color :white ;
+	margin-bottom : 5 px;
+	padding-bottom : 20px ;
+}
+
+.footer {
+	background-color: #8BAE96;
+	color: #fff;
+	height: 100px;
+	padding: 30px;
+}
+
+.footer-logo {
+	font-size: 32px;
+	float: left;
+	height: 50px;
+}
+.footer-list {
+	float: right;
+	text-align : right;
+	font-size: 15px;
+}
+.footer-item p{
+	font-size: 20px;
+	text-align: center;
+	color: #B8860B;
+}
+.reset {
+	clear: both;
+}
